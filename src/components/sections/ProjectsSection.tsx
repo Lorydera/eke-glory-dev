@@ -10,7 +10,7 @@ const projects = [
     title: 'Recipe Sharing Website',
     description: 'A responsive recipe sharing platform with dynamic content fetched from REST APIs. Features reusable components, lazy loading, and performance optimization.',
     tech: ['HTML', 'Tailwind CSS', 'JavaScript', 'REST API'],
-    image: 'recipe-site.png',
+    image: recipeImg, 
     github: 'https://github.com/kodecampteam/recipe-sharing-fe',
     live: null,
   },
@@ -18,7 +18,7 @@ const projects = [
     title: 'ReVogue E-commerce',
     description: 'A fully functional e-commerce website with product listing, shopping cart with local storage, search & filtering, and checkout form validation.',
     tech: ['HTML', 'Tailwind CSS', 'JavaScript', 'REST API'],
-    image: 'revouge-ecommerce.png',
+    image: revogueImg, 
     github: 'https://github.com/lorydera/ReVogue-ecommerce',
     live: 'https://lorydera.github.io/ReVogue-ecommerce/',
   },
@@ -26,7 +26,7 @@ const projects = [
     title: 'Business Development Website',
     description: 'A professional multi-page business website with customized Bootstrap components, responsive design, and SEO-friendly semantic HTML structure.',
     tech: ['HTML', 'Bootstrap', 'CSS'],
-    image: 'edge-site.png',
+    image: edgeImg, 
     github: 'https://github.com/lorydera/bootstrap-website',
     live: 'https://lorydera.github.io/bootstrap-website/',
   },
@@ -63,7 +63,7 @@ const ProjectsSection = () => {
                 alt={project.title}
                 className="w-full h-full object-cover"
   />
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center">
+<div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center pointer-events-none">
                   <span className="text-4xl font-bold text-primary/20">{project.title.charAt(0)}</span>
                 </div>
                 <div className="absolute inset-0 bg-foreground/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
