@@ -1,12 +1,16 @@
 import { ExternalLink, Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import recipeImg from '@/assets/recipe-site.png';
+import revogueImg from '@/assets/revouge-ecommerce.png';
+import edgeImg from '@/assets/edge-site.png';
+
 
 const projects = [
   {
     title: 'Recipe Sharing Website',
     description: 'A responsive recipe sharing platform with dynamic content fetched from REST APIs. Features reusable components, lazy loading, and performance optimization.',
     tech: ['HTML', 'Tailwind CSS', 'JavaScript', 'REST API'],
-    image: '/src/images/recipe-site.png',
+    image: '/src/assets/recipe-site.png',
     github: 'https://github.com/kodecampteam/recipe-sharing-fe',
     live: null,
   },
@@ -14,7 +18,7 @@ const projects = [
     title: 'ReVogue E-commerce',
     description: 'A fully functional e-commerce website with product listing, shopping cart with local storage, search & filtering, and checkout form validation.',
     tech: ['HTML', 'Tailwind CSS', 'JavaScript', 'REST API'],
-    image: '/src/images/revouge-ecommerce.png',
+    image: '/src/assets/revouge-ecommerce.png',
     github: 'https://github.com/lorydera/ReVogue-ecommerce',
     live: 'https://lorydera.github.io/ReVogue-ecommerce/',
   },
@@ -22,7 +26,7 @@ const projects = [
     title: 'Business Development Website',
     description: 'A professional multi-page business website with customized Bootstrap components, responsive design, and SEO-friendly semantic HTML structure.',
     tech: ['HTML', 'Bootstrap', 'CSS'],
-    image: '/src/images/edge-site.png',
+    image: '/src/assets/edge-site.png',
     github: 'https://github.com/lorydera/bootstrap-website',
     live: 'https://lorydera.github.io/bootstrap-website/',
   },
