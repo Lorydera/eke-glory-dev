@@ -63,9 +63,7 @@ const ProjectsSection = () => {
                 alt={project.title}
                 className="w-full h-full object-cover"
   />
-<div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/5 flex items-center justify-center pointer-events-none">
-                  <span className="text-4xl font-bold text-primary/20">{project.title.charAt(0)}</span>
-                </div>
+
                 <div className="absolute inset-0 bg-foreground/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
                   {project.github && (
                     <a

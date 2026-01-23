@@ -37,7 +37,7 @@ const Header = () => {
             href="#"
             className="text-xl font-bold text-foreground hover:text-primary transition-colors"
           >
-            Glory<span className="text-primary">.</span>
+            Glory Eke<span className="text-primary">.</span>
           </a>
 
           {/* Desktop Navigation */}
